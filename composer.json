@@ -1,19 +1,11 @@
 {
   "name": "idealsupply/php-ews",
   "description": "Library for communicating with Exchange Web Services.",
-  "homepage": "http://jamesarmes.com/php-ews/",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "James Armes",
-      "email": "jamesiarmes@gmail.com"
-    }
-  ],
   "prefer-stable": true,
   "require": {
     "php": ">=7.1.0",
     "ext-soap": "*",
-    "idealsdupply/php-ntlm": "~1.0"
+    "idealsupply/php-ntlm": "~1.0"
   },
   "require-dev": {
     "mustache/mustache": "~2.0",
